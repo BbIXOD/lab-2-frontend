@@ -1,0 +1,46 @@
+.square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border-color: #060d01;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#square-one {
+    top: 293.5px;
+    left: 100px;
+    rotate: 45deg;
+    background-color: #b7cbe3;
+}
+
+#square-two {
+    top: 400px;
+    left: 41px;
+    rotate: 10deg;
+    background-color: #fefc0b;
+}
+
+#square-three {
+    top: 400px;
+    left: 159px;
+    rotate: 350deg;
+    background-color: #cb0065;
+}
+
+#square-one-transform {
+    position: absolute;
+    transform: translate(392.5px, 127.5px) rotate(45deg);
+    background-color: #b7cbe3;
+}
+
+#square-two-transform {
+    transform: translate(330.5px, 231.5px) rotate(10deg);
+    background-color: #fefc0b;
+}
+
+#square-three-transform {
+    transform: translate(453.5px, 231.5px) rotate(350deg);
+    background-color: #cb0065;
+}
